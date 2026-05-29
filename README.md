@@ -80,7 +80,7 @@ Open an issue first if you're unsure whether your pattern fits.
 
 ## Authors
 
-Cüneyt Öztürk, co-founder, Cüneyt Öztürk
+Cüneyt Öztürk
 Contact: hello@falsify.dev · [falsify.dev](https://falsify.dev)
 
 
