@@ -1,5 +1,5 @@
 ---
-Authors: Cüneyt Öztürk (Cüneyt Öztürk, falsify)
+Authors: Cüneyt Öztürk (falsify)
 License: CC0-1.0
 ---
 

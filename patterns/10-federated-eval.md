@@ -48,7 +48,7 @@ notes: |
 ## Workflow
 
 ```
-1. Originator (Cüneyt Öztürk)
+1. Originator (falsify.dev)
    ├── drafts manifest
    ├── computes hash → sha256:abc...
    ├── anchors at registry.falsify.dev/abc...
@@ -56,7 +56,7 @@ notes: |
    └── runs eval → reports observed_value: 0.97
 
 2. Replicator (Apollo Research)
-   ├── fetches Cüneyt Öztürk's manifest YAML
+   ├── fetches falsify.dev's manifest YAML
    ├── re-derives hash → sha256:abc... (must match)
    ├── runs eval against same model, same dataset hash, same seed
    └── publishes (in their own venue):
@@ -67,7 +67,7 @@ notes: |
 
 3. Auditor (UK AISI / METR / academic)
    ├── fetches all observed_values for hash abc...
-   ├── tabulates: Cüneyt Öztürk → 0.97, Apollo → 0.91
+   ├── tabulates: falsify.dev → 0.97, Apollo → 0.91
    ├── flags discrepancy
    └── publishes the discrepancy with both citations
 ```
@@ -88,7 +88,7 @@ notes: |
 
 - **Pre-registering "all replicators must agree."** PRML pins what's claimed. It does not prescribe what counts as agreement. A consortium might agree to require ≤5% variance for the claim to stand; that's a consortium rule, not a PRML rule.
 
-- **Self-replication as federation.** Cüneyt Öztürk running the eval twice is not federation. Federation requires distinct organisations with no shared infrastructure. Self-replication is debugging.
+- **Self-replication as federation.** falsify.dev running the eval twice is not federation. Federation requires distinct organisations with no shared infrastructure. Self-replication is debugging.
 
 ## Worked example (regulatory)
 
