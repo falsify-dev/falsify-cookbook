@@ -61,7 +61,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: falsify-dev/prml-verify-action@v1
+      - uses: falsify-dev/prml-verify-action@v2
         with:
           manifest: manifest.yaml
           hash-file: manifest.hash
